@@ -16,7 +16,7 @@ let private isDivisibleBy multiples x =
     |> Option.isSome
 
 let sumOfMultiples inclusiveMax multiples =
-    seq { 0..(inclusiveMax-1) }
+    seq { 1..(inclusiveMax-1) }
     |> Seq.filter (isDivisibleBy multiples)
     |> Seq.sum
 
