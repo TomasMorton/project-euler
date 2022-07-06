@@ -4,6 +4,12 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Project.Euler.FSharp", "Pro
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Project.Euler.Tests", "Project.Euler.Tests\Project.Euler.Tests.fsproj", "{B23FAD79-EFEF-4F6B-BA1A-77EAA08352F7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{C87F8022-768F-459F-917C-B74C5BD7BE0E}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

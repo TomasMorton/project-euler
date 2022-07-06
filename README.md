@@ -1,1 +1,1 @@
-Template repository containing files always added to new repositories using .NET
+Solutions to problems from [Project Euler](https://projecteuler.net/).
